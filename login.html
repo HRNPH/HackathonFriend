@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,94 +8,94 @@
     <title>Document</title>
     <link rel="stylesheet" href="./components/login.css">
 </head>
+
 <body>
-    
+
     <main>
-        <img class="img_logo" src="H_1.png" alt="" width="200px" height="200px"> 
+        <img class="img_logo" src="H_1.png" alt="" width="200px" height="200px">
         <div class="container">
             <div class="button-header">
                 <button class="b1" onclick={RegisterClick()}>ลงทะเบียน</button>
-                <button class="b1" onclick={LoginClick()} > ล็อกอิน</button>
+                <button class="b1" onclick={LoginClick()}> ล็อกอิน</button>
 
             </div>
-            
-                
-                <div id="LoginForm">     
-                    
-                        <div class="box">
-                            
-                            <div> 
-                                <input type="text" autocomplete="off" placeholder="ชื่อผู้ใช้หรืออีเมล">
-                            </div>
-                        </div>
-    
-    
-                        <div class="box">    
-                            
-                            <div>
-                                <input type="text" autocomplete="off" placeholder="รหัสผ่าน"> 
-                            </div>
-                    
-                         
-                        <button class="Login">Login</button>
-                    
-                         </div>
+
+
+            <div id="LoginForm">
+
+                <div class="box">
+
+                    <div>
+                        <input type="text" autocomplete="off" placeholder="ชื่อผู้ใช้หรืออีเมล">
+                    </div>
                 </div>
-                
-                
-            <div id ='RegisterFrom' class="hidden">
-                <div>     
-                    
+
+
+                <div class="box">
+
+                    <div>
+                        <input type="text" autocomplete="off" placeholder="รหัสผ่าน">
+                    </div>
+
+
+                    <button class="Login">Login</button>
+
+                </div>
+            </div>
+
+
+            <div id='RegisterFrom' class="hidden">
+                <div>
+
                     <div class="box">
-                        <div> 
+                        <div>
                             <input type="text" autocomplete="off" placeholder="ชื่อผู้ใช้">
                         </div>
-                    </div>  
-    
-    
-                    <div class="box">    
+                    </div>
+
+
+                    <div class="box">
                         <div>
-                            <input type="text" autocomplete="off" placeholder="อีเมล"> 
+                            <input type="text" autocomplete="off" placeholder="อีเมล">
                         </div>
                     </div>
-                    
-                    <div class="box">    
+
+                    <div class="box">
                         <div>
-                            <input type="text" autocomplete="off" placeholder="ตั้งรหัสผ่าน"> 
+                            <input type="text" autocomplete="off" placeholder="ตั้งรหัสผ่าน">
                         </div>
                     </div>
-                
+
                     <button class="Login">Register</button>
-              
+
                 </div>
 
-            </div> 
-            
-            <script>
+            </div>
 
-                
+            <script>
                 function LoginClick() {
-                    const loginF = document.getElementById('LoginFrom');
+                    const loginF = document.getElementById('LoginForm');
                     const regisF = document.getElementById('RegisterFrom');
 
-                    loginF.className  = 'hidden';
+                    loginF.className = 'hidden';
                     regisF.className = '';
-                }   
+                }
+
                 function RegisterClick() {
-                    const loginF = document.getElementById('LoginFrom');
+                    const loginF = document.getElementById('LoginForm');
                     const regisF = document.getElementById('RegisterFrom');
 
                     regisF.className = 'hidden';
                     loginF.className = '';
-                  }
-
+                }
             </script>
-                
-            
-            
+
+
+
 
 
         </div>
     </main>
 </body>
+
 </html>
