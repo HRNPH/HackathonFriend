@@ -86,10 +86,8 @@ body {
   cursor: po5s;
 }
 
-#hidden{
-  display: hidden;
-  
-
+.hidden{
+  display: none;
 }
 
     
