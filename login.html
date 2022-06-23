@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./components/css/login.css">
+    
 </head>
 
 <body>
 
     <main>
-        <img class="img_logo" src="./components/img/Logo.png" alt="" width="200px" height="200px">
+        <a href="login.html"><img class="img_logo" src="./components/img/Logo.png" alt="" width="200px" height="200px"></a>
         <div class="container">
             <div class="button-header">
                 <button class="b1" onclick={RegisterClick()}>ลงทะเบียน</button>
@@ -73,7 +74,8 @@
             </div>
 
             <script>
-                function LoginClick() {
+                // function LoginClick() {
+                function RegisterClick() {
                     const loginF = document.getElementById('LoginForm');
                     const regisF = document.getElementById('RegisterFrom');
 
@@ -81,7 +83,9 @@
                     regisF.className = '';
                 }
 
-                function RegisterClick() {
+                // function RegisterClick() {
+                    function LoginClick() {
+
                     const loginF = document.getElementById('LoginForm');
                     const regisF = document.getElementById('RegisterFrom');
 
