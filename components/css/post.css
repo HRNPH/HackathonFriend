@@ -52,10 +52,9 @@ header{
 
 .content1{
     margin: auto;
-    height:95%;
     margin-left:20% ;
     margin-right: 20%;
-    display: flex;
+    display: block;
     background: #F3F3F3;
     border-radius: 40px;
     border: 3px solid #000000;
@@ -63,7 +62,6 @@ header{
 }
 
 .content2 {
-    display: flex;
     background: #FF7722;
     border-radius: 100px;
     border: 1px solid #000000;
@@ -82,6 +80,10 @@ header{
     text-align: center;
     width: 230px ;
     border: 3px solid #000;
+}
+
+.circle {
+    border-radius: 50%;
 }
 
 .text1{
