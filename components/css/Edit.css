@@ -15,9 +15,6 @@ body{
     
 }
 
-
-
-
 .logo{
     position: absolute;
     display: block;
@@ -25,10 +22,7 @@ body{
     max-width: 200px;
     max-height: 200px;
     margin-top: 5px;
-
-    
 }
-
 
 
   #menu__toggle {
@@ -130,22 +124,37 @@ body{
     grid-template-rows:2fr auto;
     margin-top: 30px;
     min-width: 400px;
-    
   }
 
-.img-header-avatar{
-    padding: 50px;
-    border-radius: 100%;
-    margin-top: 100px;
-    z-index: 10;
-    position: absolute;
+.img-header{
+  padding-left: 30px;
 }
+
+
+
+
 .name-text{
-top: 40%;
+/* top: 40%; */
 position: absolute;
-margin-left: 350px;
+/* margin-left: 350px; */
 
 }
+.profile-name{
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /* justify-content: end;   */
+}
+#name-user{
+  height: 60px;
+    /* margin-left: 79px; */
+    margin-top:30px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #eaeaea;
+}
+
 .bg-1{
     background-color: #ffcb7e;
     min-height: 250px
@@ -156,11 +165,9 @@ margin-left: 350px;
     
 }
 
-.object-up{
-/* /* display: grid;
-grid-template-columns: 1fr 5fr; */
+/* .object-up{
 position: relative; 
-}
+} */
 .text-content{
     padding: 30px;
 }
@@ -168,6 +175,12 @@ position: relative;
     margin-top: 200px;
     font-size: 30px;
     margin-left: 200px;
+    /* width: 1500px; */
+    height: auto;
+    /* border: #000 solid 5px; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ; */
 }
 span {
     content: "\270E";
@@ -193,7 +206,7 @@ span {
 }
 #discord{
     height: 40px;
-    margin-left: 50px;
+    margin-left: 58px;
     border-radius: 10px;
     margin-top:30px;
     border: transparent;
@@ -201,15 +214,21 @@ span {
     width: 1000px;
 }
 
-.area-text{
+
+
+
+
+
+
+/* .area-text{
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
     max-width: 1100px;
     
-}
-
+} */
+/* 
 #ability{
     border-radius: 20px;
     background-color: #ffcb7e;
@@ -219,7 +238,4 @@ span {
     border-radius: 20px;
     background-color: #ffcb7e;
     border: rgba(0, 0, 0, 0);
-}
-.submitEdit{
-
-}
+} */
