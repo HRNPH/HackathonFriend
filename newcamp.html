@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>รายละเอียดค่าย</title>
-    <link href="components/css/detail.css" rel="stylesheet">
+    <link rel="stylesheet" href="components/css/newcamp.css">
+    <title>สร้างค่าย</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
@@ -29,27 +29,38 @@
             <li><a class="menu__item" href="#">ออกจากระบบ</a></li>
         </ul>
     </div>
-    
     <div class="all">
-        <img src="components/img/camp.png" class="img">
-        <div class="combine">
-            <div class="bolt">
-                <b>ToBeIT’66 @KMITL เสริมความคิด 
-                    ติดความรู้ ก้าวเข้าสู่เด็กไอที (onsite)</b>
-            </div>
-            <div class="interest">
-                สนใจค่าย
-            </div>
+        <input type="image" class="inp-img" src="components/img/input-image.png"><br>
+        <center><input placeholder="ชื่อค่าย" type="text" class="name"></center>
+        
+            
         </div>
         <div class="detail">
-            <p class="text">รูปแบบ: onsite<br>
-                วันที่จัด: 18,19,25,26  2565<br>
-                รับสมัคร: วันนี้-12 มิถุนายน<br>
-                จำนวนที่รับ: 160 คน<br>
-                ค่าใช้จ่าย: 300 บาท<br>
-                สถานที่จัดกิจกรรม: สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง<br>
-                -รายละเอียดค่าย-</p>
+            <div>
+                <p> รูปแบบ:<br>
+                    วันที่จัด:<br>
+                วันที่รับสมัคร:<br>
+                 จำนวนที่รับ:<br>
+                   ค่าใช้จ่าย:<br>
+           สถานที่จัดกิจกรรม:<br>
+                 รายละเอียด:<br>
+                </p>
+            </div>
+            <div class="questbox">
+                <input type="radio" id="onsite" name="where" value="onsite">onsite
+                <input type="radio" id="online" name="where" value="online">online
+                <input type="text" class="quest">
+                <input type="text" class="quest">
+                <input type="text" class="quest">
+                <input type="text" class="quest">
+                <input type="text" class="quest">
+                <input type="text" class="quest">
+            </div>
         </div>
+        <center>
+            <button class="make">สร้างค่าย</button>
+        </center>
+        
     </div>
 </body>
 </html>
