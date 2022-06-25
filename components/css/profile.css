@@ -110,6 +110,33 @@ body{
     margin-right: 50px;
 
   }
+a{
+  color: #ffffff;
+}
+
+.bg-footer {
+  background-color: #000;
+  color: white;
+  position: relative;
+  min-height: 100px;
+  margin-top: 50px;
+}
+.image-footer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.twitter {
+  margin-top: 30px;
+}
+.github {
+  margin-top: 30px;
+}
+
+#disc{
+  margin-top: 30px;
+}
 
 
 .bg-1{
@@ -118,5 +145,84 @@ body{
     z-index: -1;
 }
 .bg-2{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255)
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    object-fit: cover;
+    grid-row: 1 / span 3;
+    float: left;
+}
+
+.grid-container2{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  margin-right: 45%;
+}
+.content1{
+  margin-left: 80%;
+  grid-column: 1;
+}
+.content2{
+  text-align: left;
+  grid-column: 2;
+}
+.grid-container4{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  margin-bottom: 50px;
+  margin-right: 20%;
+}
+.content3{
+  margin-left: 70%;
+}
+.content4{
+  text-align: left;
+}
+
+.grid-container3{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.img1{
+  width: 100px;
+  height: 100px;
+  grid-column: 1;
+  margin-left: 40px;
+}
+.img2{
+  width: 100px;
+  height: 100px;
+  grid-column: 2;
+}
+.img3{
+  width: 100px;
+  height: 100px;
+  grid-column: 3;
+}
+.img4{
+  width: 100px;
+  height: 100px;
+  grid-column: 4;
+}
+.img5{
+  width: 100px;
+  height: 100px;
+  grid-column: 5;
+}
+.text{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
 }
