@@ -10,7 +10,7 @@ axios.get(API_URL + '/posts')
         // for each post add it to the DOM ID 'posts'
         response.data.forEach(function(post) {
             document.getElementById('content-container').innerHTML += `
-            <div class="content">
+            <div style="cursor: pointer;" onclick="window.location='profile.html';" class="content">
                 <div class="grid-container">
                     <img src="./components/img/anna.png" class="contentpic1">
                     <p class="item1">@${post.name}</p>
