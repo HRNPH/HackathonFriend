@@ -18,7 +18,7 @@ function getValue() {
         })
         .then(response => {
             // redirect to /interesting
-            window.location.href = '/interesting';
+            window.location.href = 'https://hrnph.github.io/HackathonFriend/detail.html';
         })
 
 }
