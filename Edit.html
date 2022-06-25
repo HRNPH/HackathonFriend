@@ -29,51 +29,51 @@
             <li><a class="menu__item" href="#">ออกจากระบบ</a></li>
         </ul>
     </div>
-    <img class="img-header-avatar" src="https://www.online-station.net/wp-content/uploads/2020/05/Spy-x-Family_1200_628.jpg" alt="" width="250px" height="250px">
+
     <div class="container-body">
         <div class="bg-1">
             <h1 class="text-content">แก้ไขโปรไฟล์</h1>
-            <div class="object-up">
-                <h1 class="name-text">ชื่อผู้ใช้</h1>
-                
+            <div class="profile-name">
+                <img class="img-header" src="components/img/Avatar header.png" alt="" width="250px" height="250px">
+                <div class="userheader">
+                    <h1 class="">ชื่อผู้ใช้</h1>
+                    <input type="text" id=name-user autocomplete="off" placeholder="ชื่อผู้ใช้งาน">
+                </div> 
             </div>
+
         </div>
+
         <div class="bg-2">
             <div class="test-text">
                 <form action="/action_page.php">
                     <label for="email">อีเมลล์</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" autocomplete="off" placeholder="อีเมลล์" class="data">
                     
                   
                 </form>
                 <form action="/action_page.php">
                     <label for="email">จังหวัด</label>
-                    <input type="province" id="province" name="province">
+                    <input type="province" id="province" name="province" autocomplete="off" placeholder="จังหวัด" class="data">
  
                 </form>
                 <form action="/action_page.php">
-                    <label for="email">ดิสคอร์ด:</label>
-                    <input type="discord" id="discord"name="discord">
+                    <label for="email">ดิสคอร์ด</label>
+                    <input type="discord" id="discord"name="discord" autocomplete="off" placeholder="ดิสคอร์ด" class="data">
                 </form>
-                <div class="area-text" >
+                div.
+                <!-- <div class="area-text" >
                     <textarea id="ability" name="w3review" rows="4" cols="10" placeholder="ความสามารถ" >
                     </textarea>
                     <textarea id="like" name="w3review" rows="4" cols="10" placeholder="ความชอบ" > 
                     </textarea>
-                </div>
-                <button class = "submitEdit"onclick="submitClick()">submit</button> 
+                </div> -->
+
+
             </div>
-            
-        
-
         </div>
+    </div>
 
-    <script>
-        function submitClick(){
-            
-        }
-    </script>
-
+   
 
 
 </body>
