@@ -83,6 +83,7 @@ a{
     width: 150px;
     height: 150px;
     float: left;
+    object-fit: cover
 }
 
 
@@ -227,7 +228,7 @@ body{
   header{
     position: fixed;
     width: 100%;
-    background: #000;
+    background: #FF7722;
     height: 70px;
     display: flex;
     justify-content: right;
