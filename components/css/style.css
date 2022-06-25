@@ -1,25 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-body{
+body {
     font-family: 'Sarabun', sans-serif;
     margin: 0;
     background-color: #F3F3F3;
     color: #000;
 }
-.grid1{
+
+.grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     margin-left: 50px;
     margin-right: 50px;
 }
-.content1{
+
+.content1 {
     display: flex;
     height: 350px;
     background: #fff;
     border-radius: 40px;
     border: 3px solid #000;
 }
-.contentpic1{
+
+.contentpic1 {
     width: 300px;
     height: 300px;
     border-radius: 50px;
@@ -28,7 +31,8 @@ body{
     margin-left: 20px;
     grid-row: 1 / span 6;
 }
-.logo{
+
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,52 +40,68 @@ body{
     width: 200px;
     height: 200px;
 }
-a{
+
+a {
     color: #fff;
 }
-.a1{
+
+.a1 {
     color: #000;
 }
-.grid-container{
+
+.grid-container {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto auto;
 }
-.item1{
+
+.grid-container :hover {
+    color: #FF7722
+}
+
+.item1 {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 0px;
     margin-left: 40px;
 }
-.item2{
+
+.item2 {
     grid-row: 2 / span 4;
     margin-left: 40px;
     margin-top: 0px;
     width: 300px;
+    overflow: scroll;
 }
-.item3{
+
+.item3 {
     text-align: right;
     margin-top: 100px;
 }
+
 #menu__toggle {
     opacity: 0;
-    
-  }
-  #menu__toggle:checked + .menu__btn > span {
+}
+
+#menu__toggle:checked+.menu__btn>span {
     transform: rotate(45deg);
-  }
-  #menu__toggle:checked + .menu__btn > span::before {
+}
+
+#menu__toggle:checked+.menu__btn>span::before {
     top: 0;
     transform: rotate(0deg);
-  }
-  #menu__toggle:checked + .menu__btn > span::after {
+}
+
+#menu__toggle:checked+.menu__btn>span::after {
     top: 0;
     transform: rotate(90deg);
-  }
-  #menu__toggle:checked ~ .menu__box {
+}
+
+#menu__toggle:checked~.menu__box {
     left: 0 !important;
-  }
-  .menu__btn {
+}
+
+.menu__btn {
     position: fixed;
     top: 20px;
     left: 20px;
@@ -90,27 +110,30 @@ a{
     margin-top: 15px;
     cursor: pointer;
     z-index: 50;
-  }
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
     display: block;
     position: absolute;
     width: 100%;
     height: 2px;
     background-color: #ffffff;
     transition-duration: .25s;
-  }
-  .menu__btn > span::before {
+}
+
+.menu__btn>span::before {
     content: '';
     top: -8px;
-  }
-  .menu__btn > span::after {
+}
+
+.menu__btn>span::after {
     content: '';
     top: 8px;
-  }
-  .menu__box {
-    
+}
+
+.menu__box {
     display: block;
     position: fixed;
     top: 0;
@@ -123,8 +146,9 @@ a{
     background-color: #ECEFF1;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
-  }
-  .menu__item {
+}
+
+.menu__item {
     display: block;
     padding: 12px 24px;
     color: #333;
@@ -133,12 +157,13 @@ a{
     font-weight: 600;
     text-decoration: none;
     transition-duration: .25s;
-  }
-  .menu__item:hover {
-    background-color: #CFD8DC;
-  }
+}
 
-  header{
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
+
+header {
     position: fixed;
     width: 100%;
     background: #FF7722;
@@ -148,48 +173,52 @@ a{
     /* justify-content: flex-start; */
     align-items: center;
     z-index: 40;
-  }
-  .logo-header{
+}
+
+.logo-header {
     margin-top: 10px;
     margin-right: auto;
     margin-left: 70px;
     /* margin-right: 750px; */
     /* display: flex; */
     /* justify-content: left; */
-  }
-  .links-header{
-    padding: 50px; 
-  }
-  .links-header a{
+}
+
+.links-header {
+    padding: 50px;
+}
+
+.links-header a {
     text-decoration: none;
     padding: 10px;
-  }
-  .img-header-avatar{
+}
+
+.img-header-avatar {
     margin-right: 50px;
+}
 
-  }
-
-
-  .bg-footer {
+.bg-footer {
     background-color: #000;
     color: white;
     position: relative;
     min-height: 100px;
     margin-top: 50px;
-  }
-  .image-footer {
+}
+
+.image-footer {
     display: flex;
     justify-content: center;
     gap: 50px;
-  }
-  
-  .twitter {
+}
+
+.twitter {
     margin-top: 30px;
-  }
-  .github {
+}
+
+.github {
     margin-top: 30px;
-  }
-  
-  #disc{
+}
+
+#disc {
     margin-top: 30px;
-  }
+}
