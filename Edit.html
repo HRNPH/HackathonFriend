@@ -12,23 +12,28 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="./components/img/Logo.png">
-        <img class="img-header" src="components/img/Avatar header.png" alt="" width="50px" height="50px">
-    </header>
-    <div class="hamburger-menu"> 
-        <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" for="menu__toggle">
-            <span></span>
-        </label>
+        <a class="logo-header" href="index.html"><img src="components/img/Logo.png" alt="" width="150px" height="150px"></a>
+        <div class="links-header">
+            <a href="login.html">ลงทะเบียน</a>
+            <a href="login.html">เข้าสู่ระบบ</a>
+        </div>  
+        <a href="#"><img class="img-header-avatar" src="components/img/Avatar header.png" alt="" width="50px" height="50px"></a>
+        
+</header>
+<div class="hamburger-menu"> 
     
-        <ul class="menu__box">
-            <li><a class="menu__item" href="#">เกี่ยวกับ</a></li>
-            <li><a class="menu__item" href="#">ศูนย์ช่วยเหลือ</a></li>
-            <li><a class="menu__item" href="#">ติดต่อเรา</a></li>
-            <li><a class="menu__item" href="#">ตั้งค่าบัญชี</a></li>
-            <li><a class="menu__item" href="#">ออกจากระบบ</a></li>
-        </ul>
-    </div>
+    <input id="menu__toggle" type="checkbox" />
+       <label class="menu__btn" for="menu__toggle">
+         <span></span>
+       </label>
+   
+       <ul class="menu__box">
+         <li><a class="menu__item" href="#">เกี่ยวกับ</a></li>
+         <li><a class="menu__item" href="#">ศูนย์ช่วยเหลือ</a></li>
+         <li><a class="menu__item" href="#">ติดต่อเรา</a></li>
+       </ul>
+       
+</div>
 
     <div class="container-body">
         <div class="bg-1">
@@ -52,29 +57,73 @@
                   
                 </form>
                 <form action="/action_page.php">
-                    <label for="email">จังหวัด</label>
+                    <label for="province">จังหวัด</label>
                     <input type="province" id="province" name="province" autocomplete="off" placeholder="จังหวัด" class="data">
  
                 </form>
                 <form action="/action_page.php">
-                    <label for="email">ดิสคอร์ด</label>
+                    <label for="discord">ดิสคอร์ด</label>
                     <input type="discord" id="discord"name="discord" autocomplete="off" placeholder="ดิสคอร์ด" class="data">
                 </form>
-                <div class="text-area">
-                    <input type="text">
+
+                <form action="/action_page.php" class="area-textEdit">
+                    <div class="text1">
+                        <label for="ability">ความสามารถ</label>
+                        <textarea class="ability" placeholder="ความสามารถ" maxlength="3000" rows="10" cols="40"></textarea>
+                       <!-- <div class="message"></div> -->
+                    </div>
+                    <div class="text2">
+                        <label for="like">ความชอบ</label>
+                        <textarea class="like" placeholder="ควาชอบ" maxlength="3000" rows="10" cols="40"></textarea>
+                       <!-- <div class="message"></div> -->
+                    </div>
+                    
+                </form>
+                <div class="box-save">
+                <button class="editSubmit">บันทึก</button>
                 </div>
+                
+
+
                 <!-- <div class="area-text" >
                     <textarea id="ability" name="w3review" rows="4" cols="10" placeholder="ความสามารถ" >
                     </textarea>
                     <textarea id="like" name="w3review" rows="4" cols="10" placeholder="ความชอบ" > 
                     </textarea>
                 </div> -->
+                
 
 
             </div>
         </div>
+        
     </div>
 
+    <footer class="bg-footer">
+        <div class="image-footer">
+          <a href=""><img
+              class="twitter"
+              src="components/img/twitter.png"
+              alt=""
+              width="50px"
+              height="50px"
+            /></a>
+          <a href=""><img
+              id="disc"
+              src="components/img/discord.png"
+              alt=""
+              width="50px"
+              height="50px"
+            /></a>
+          <a href=""><img
+              class="github"
+              src="components/img/github.png"
+              alt=""
+              width="50px"
+              height="50px"
+            /></a>
+        </div>
+      </footer>
    
 
 
