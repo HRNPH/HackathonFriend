@@ -113,6 +113,30 @@ body{
 a{
   color: #ffffff;
 }
+.bg-footer {
+  background-color: #000;
+  color: white;
+  position: relative;
+  min-height: 100px;
+  margin-top: 50px;
+}
+.image-footer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.twitter {
+  margin-top: 30px;
+}
+.github {
+  margin-top: 30px;
+}
+
+#disc{
+  margin-top: 30px;
+}
+
 
 .bg-footer {
   background-color: #000;
@@ -151,42 +175,23 @@ a{
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 20px;
     margin-left: 40px;
     object-fit: cover;
     grid-row: 1 / span 3;
     float: left;
 }
-
-.grid-container2{
+.grid-container1{
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
-  margin-right: 45%;
 }
-.content1{
-  margin-left: 80%;
-  grid-column: 1;
+.item1{
+  font-size: 30px;
+  margin-left: 20px;
+  padding-top: 200px;
 }
-.content2{
-  text-align: left;
-  grid-column: 2;
-}
-.grid-container4{
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
-  margin-bottom: 50px;
-  margin-right: 20%;
-}
-.content3{
-  margin-left: 70%;
-}
-.content4{
-  text-align: left;
-}
-
 .grid-container3{
   display: grid;
   grid-template-columns: auto auto auto auto auto;
@@ -194,6 +199,8 @@ a{
   gap: 10px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .img1{
   width: 100px;
@@ -224,5 +231,23 @@ a{
 .text{
   margin-left: 100px;
   margin-right: 100px;
+  margin-bottom: 50px;
   text-align: center;
+}
+.text1{
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.text2{
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
+.text3{
+  margin-left: 300px;
+  margin-bottom: 50px;
+}
+.edit-profile{
+  text-align: right;
+  margin-right: 30px;
+  padding-top: 250px;
 }
