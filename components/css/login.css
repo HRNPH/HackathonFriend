@@ -9,6 +9,10 @@ html body {
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     
 }
+*{
+    font-family: 'Kanit', sans-serif;
+    
+}
 
 body {
     display: flex;
@@ -28,6 +32,8 @@ body {
     flex-direction: column;
     color: #fff;
     padding: 2em;
+    /* padding-top: 0; */
+    
 }
 
 .img_logo{
@@ -49,11 +55,14 @@ body {
 .button-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 0;
+    margin-top: 0;
+    /* width: 350px; */
     /* background: none; */
 }
 
 .button-header .b1 {
-    background-color: #002b5f;
+    background-color: #1f4786;
     color: #fff;
     border-radius: 50px;
     height: 50px;
@@ -104,4 +113,9 @@ body {
 
 .hidden {
     display: none;
+}
+
+.hamburger{
+    padding: 5px;
+    margin-left: 10px;
 }
