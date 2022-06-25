@@ -170,3 +170,28 @@ a{
     margin-right: 50px;
 
   }
+
+
+  .bg-footer {
+    background-color: #000;
+    color: white;
+    position: relative;
+    min-height: 100px;
+    margin-top: 50px;
+  }
+  .image-footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .twitter {
+    margin-top: 30px;
+  }
+  .github {
+    margin-top: 30px;
+  }
+  
+  #disc{
+    margin-top: 30px;
+  }
