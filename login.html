@@ -8,20 +8,20 @@
     <title>Login&Register</title>
     <link rel="stylesheet" href="./components/css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-        
+
 
     <main>
         <a href="index.html"><img class="img_logo" src="./components/img/Logo2.png" alt="" width="200px" height="200px"></a>
         <div class="container">
             <div class="button-header">
                 <button class="b1" onclick={RegisterClick()}>ลงทะเบียน</button>
-                <button class="b1" onclick={LoginClick()}> ล็อกอิน</button>
+                <button class="b1" onclick={LoginClick()}>เข้าสู่ระบบ</button>
 
             </div>
 
@@ -76,7 +76,7 @@
                 </div>
 
             </div>
-            
+
             <script>
                 // function LoginClick() {
                 function RegisterClick() {
@@ -88,7 +88,7 @@
                 }
 
                 // function RegisterClick() {
-                    function LoginClick() {
+                function LoginClick() {
 
                     const loginF = document.getElementById('LoginForm');
                     const regisF = document.getElementById('RegisterFrom');
@@ -97,20 +97,21 @@
                     loginF.className = '';
                 }
             </script>
-            
+
 
 
 
 
 
         </div>
-        
+
     </main>
 
 
 
 
 
-    
+
 </body>
+
 </html>
