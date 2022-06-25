@@ -6,15 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackathon Friend</title>
-    <link rel="stylesheet" type="text/css" href="./components/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./components/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    
     <header>
-            <a href="index.html">Home</a>
-            <a href="login.html">ลงทะเบียน</a>
-            <a href="login.html">เข้าสู่ระบบ</a>
+            <a class="logo-header" href="index.html"><img src="components/img/Logo.png" alt="" width="150px" height="150px"></a>
+            <div class="links-header">
+                <a href="login.html">ลงทะเบียน</a>
+                <a href="login.html">เข้าสู่ระบบ</a>
+            </div>  
+            <a href="#"><img class="img-header-avatar" src="components/img/Avatar header.png" alt="" width="50px" height="50px"></a>
+            
     </header>
+    <div class="hamburger-menu"> 
+        
+        <input id="menu__toggle" type="checkbox" />
+           <label class="menu__btn" for="menu__toggle">
+             <span></span>
+           </label>
+       
+           <ul class="menu__box">
+             <li><a class="menu__item" href="#">เกี่ยวกับ</a></li>
+             <li><a class="menu__item" href="#">ศูนย์ช่วยเหลือ</a></li>
+             <li><a class="menu__item" href="#">ติดต่อเรา</a></li>
+           </ul>
+           
+    </div>
+
     <img class="logo" src="./components/img/Logo.png">
     <div class="grid1">
         <div class="content1">
@@ -26,5 +48,7 @@
         <div class="content1"></div>
         <div class="content1"></div>
     </div>
+    
+    
 </body>
 </html>
