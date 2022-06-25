@@ -1,68 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-body{
-    font-family: 'Sarabun', sans-serif;
-    margin: 0;
-    background-color: #F3F3F3;
-    color: #000;
-}
-.grid1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.content1{
-    display: flex;
-    height: 350px;
-    background: #fff;
-    border-radius: 40px;
-    border: 3px solid #000;
-}
-.contentpic1{
-    width: 300px;
-    height: 300px;
-    border-radius: 50px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 20px;
-    grid-row: 1 / span 6;
-}
-.logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 40px;
-    width: 200px;
-    height: 200px;
-}
-a{
-    color: #fff;
-}
-.a1{
-    color: #000;
-}
-.grid-container{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto auto;
-}
-.item1{
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 40px;
-}
-.item2{
-    grid-row: 2 / span 4;
-    margin-left: 40px;
-    margin-top: 0px;
-    width: 300px;
-}
-.item3{
-    text-align: right;
-    margin-top: 100px;
-}
 #menu__toggle {
     opacity: 0;
     
@@ -168,3 +104,73 @@ a{
     margin-right: 50px;
 
   }
+
+
+body{
+    font-family: 'Sarabun', sans-serif;
+    margin: 0;
+    background-color: #F3F3F3;
+    color: #000;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+    row-gap: 30px;
+}
+.content{
+    display: flex;
+    height: 350px;
+    background: #F3F3F3;
+    border-radius: 40px;
+    border: 3px solid #000;
+    height: 200px;
+}
+.text1{
+    font-size: 24px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+.contentpic1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    grid-row: 1 / span 3;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+    object-fit: cover
+}
+.item1{
+    grid-row: 1 / span 3;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+.item2{
+    grid-row: 1 / span 3;
+    grid-column: 3 / span 2;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+}
+.item3{
+    grid-column: 1 / span 3;
+    margin-left: 40px;
+    bottom: 0;
+}
+.item4{
+    grid-column: 4 / span 2;
+    margin-left: 40px;
+    bottom: 0;
+}
+a{
+    color: #fff;
+}
