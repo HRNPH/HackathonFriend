@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hackathon Friend</title>
+    <title>สร้างโพสต์</title>
     <link rel="stylesheet" href="components/css/post.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="components/js/add_post.js"></script>
 </head>
 
 <body>
     <header>
-        <a class="logo-header" href="index.html"><img src="components/img/Logo.png" alt="" width="150px" height="150px"></a>
+              <a class="logo-header" href="index.html"><img src="components/img/Logo.png" alt="" width="150px" height="150px"></a>
         <div class="links-header">
             <a href="login.html">ลงทะเบียน</a>
             <a href="login.html">เข้าสู่ระบบ</a>
@@ -33,16 +38,11 @@
        </ul>
        
 </div>
-
-
-
-
-    <br><br><br><br>
+      <br><br><br><br>
     <div class="content1">
         <div class="content2">
             <div class="content3"> <p class="post">โพสต์</p></div>
         </div>
-
 
             <img src="components/img/anna.png" class="circle">
             <h1 class="name_pro">//ชื่อผู้ใช้</h1>
@@ -85,9 +85,42 @@
       </footer>
     
 
-    
-    
+        <img class="logo" src="./components/img/Logo3.png">
+        <img class="img-header" src="components/img/Avatar header.png" alt="" width="50px" height="50px">
+    </header>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
 
-
+        <ul class="menu__box">
+            <li><a class="menu__item" href="#">เกี่ยวกับ</a></li>
+            <li><a class="menu__item" href="#">ศูนย์ช่วยเหลือ</a></li>
+            <li><a class="menu__item" href="#">ติดต่อเรา</a></li>
+            <li><a class="menu__item" href="#">ตั้งค่าบัญชี</a></li>
+            <li><a class="menu__item" href="#">ออกจากระบบ</a></li>
+        </ul>
+    </div>
+    <div class="content1">
+        <div class="content2">
+            <div onClick="getValue()" class="content3">
+                <p class="post">โพสต์</p>
+            </div>
+        </div>
+        <img src="components/img/anna.png" class="circle">
+        <h1 id='name' class="name_pro">@Anya</h1>
+        <textarea id='detail' placeholder="เหตุผลที่สนใจ..." aria-placeholder="top" class="inp" type="text" autocomplete="off"></textarea>
+        <br>
+        <div class="ability">
+            <div>ความสามารถ</p>
+                <p>#html #css #javascript #python #machine-learning</p>
+            </div>
+            <div class="interest">
+                <div>ความสนใจ</p>
+                    <p>#machine-learning #cybersecurity #gaming</p>
+                </div>
+            </div>
 </body>
+
 </html>

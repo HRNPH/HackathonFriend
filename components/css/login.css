@@ -3,7 +3,7 @@ html body {
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
-    background-color: #002b5f;
+    background-color: #f3f3f3;
     font-family: 'Kanit', sans-serif;
     /* background-color: rgb(156, 156, 156); */
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
@@ -23,7 +23,7 @@ body {
 
 .container {
     /* background: rgb(0, 0, 0); */
-    background-color: #1f4786;
+    background-color: #FF7722;
     width: 350px;
     height: auto;
     border-radius: 20px;
@@ -62,7 +62,7 @@ body {
 }
 
 .button-header .b1 {
-    background-color: #1f4786;
+    background-color: #FF7722;
     color: #fff;
     border-radius: 50px;
     height: 50px;
@@ -78,7 +78,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #5b77a3;
+    background: #F6A978;
     color: #fff;
     /* border: none; */
     border: #fff 1px solid;
@@ -104,7 +104,7 @@ body {
     /* margin: 5px; */
     /* margin: 0.2eminter; */
     color: rgb(255, 255, 255);
-    background-color: #5b77a3;
+    background-color: #F6A978;
     /* background: linear-gradient(to right, #ff416c, #ff4b2b); */
     transition: all 0. 0;
     transform: translate(-1%);
